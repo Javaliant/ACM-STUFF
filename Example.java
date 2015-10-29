@@ -1,4 +1,8 @@
-// Simple Button -- will shutdown your computer (Windows specific)
+/* Author: Luigi Vincent 
+* Simple Button -- will shutdown your computer (Windows specific)
+* If request, I can write a system independent version.
+* But I recommend you guys try to write that yourself or generally make the button do something else
+*/
 
 import java.io.IOException;
 
@@ -19,7 +23,6 @@ public class Example extends Application {
 			try {
 				Runtime.getRuntime().exec("shutdown /s /t 00");
 			} catch(IOException ioe){}
-
 		});
 
 		stage.setScene(new Scene(button));
