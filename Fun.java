@@ -1,5 +1,7 @@
-
-
+/* Author: Luigi Vincent
+* The main thing we created today.
+* Try to add some more interaction with other keys!
+*/
 
 import javafx.application.Application;
 import javafx.scene.Scene;
